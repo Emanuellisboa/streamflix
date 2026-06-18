@@ -1,0 +1,80 @@
+<!DOCTYPE html> <!-- declara HTML5 -->
+<html lang="pt-BR"> <!-- idioma português -->
+
+<head>
+    <meta charset="UTF-8"> <!-- codificação UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport responsivo -->
+    <title>Netflix Clone</title> <!-- título da página -->
+    <link rel="stylesheet" href="catalogo.css"> <!-- CSS local -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"> <!-- ícones FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> <!-- fonte Roboto -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar"> <!-- cabeçalho fixo -->
+        <div class="navbar-left"> <!-- lado esquerdo da navbar -->
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+                alt="Netflix"> <!-- logo da Netflix -->
+            <nav> <!-- navegação -->
+                <ul class="nav-links"> <!-- lista de links -->
+                    <li><a href="#main-content" class="active">Início</a></li> <!-- link ativo -->
+                    <li><a href="#main-content">Séries</a></li>
+                    <li><a href="#main-content">Filmes</a></li>
+                    <li><a href="#main-content">Jogos</a></li>
+                    <li><a href="#main-content">Bombando</a></li>
+                    <li><a href="#main-content">Minha lista</a></li>
+                    <li><a href="#main-content">Favoritos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="navbar-right"> <!-- lado direito da navbar -->
+            <i class="fas fa-search icon"></i> <!-- ícone de busca -->
+            <a href="../index.html" class="kids-link">Seu nome</a> <!-- link para voltar, nome do perfil -->
+            <div class="nav-notification"> <!-- notificações -->
+                <i class="fas fa-bell icon"></i> <!-- ícone de sino -->
+                <span class="notification-badge">42</span> <!-- badge de notificação -->
+            </div>
+            <a href="../index.html" class="profile-menu" style="text-decoration: none; color: inherit;"> <!-- menu de perfil -->
+                <img class="profile-icon" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+                    alt="Profile"> <!-- ícone do perfil -->
+                <i class="fas fa-caret-down icon" style="font-size: 14px; margin-left: 5px;"></i> <!-- seta para baixo -->
+            </a>
+        </div>
+    </header>
+
+    <!-- Sliders Container -->
+    <main class="sliders-container" id="main-content"> <!-- container principal para os carrosséis -->
+        <!-- Javascript will inject the rows here --> <!-- JS injeta as linhas aqui -->
+    </main>
+
+    <!-- Footer -->
+    <footer> <!-- rodapé -->
+        <div class="footer-content"> <!-- conteúdo do rodapé -->
+            <a href="https://www.alura.com.br/" target="_blank"> <!-- link para Alura -->
+                <p>Projetenho emanú</p>
+            </a>
+            <ul class="footer-links"> <!-- lista de links do rodapé -->
+                <li><a href="https://www.alura.com.br/" target="_blank">Perguntas frequentes</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Centro de ajuda</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Conta</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Imprensa</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Relações com investidores</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Carreiras</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Formas de assistir</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Termos de uso</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Privacidade</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Preferências de cookies</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Informações corporativas</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Entre em contato</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Teste de velocidade</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Avisos legais</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Só na Netflix</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script> <!-- carrega o JS modular -->
+</body>
+
+</html>
